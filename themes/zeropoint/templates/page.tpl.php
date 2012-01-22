@@ -28,13 +28,21 @@
   		<div id="banner"><?php print render ($page['banner']); ?></div>
   	<?php endif; ?>
   </div><!-- /top-elements -->
-  <div id="logo">
-  <?php if ($logo): ?>
-    <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>">
-      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+  
+  <div id="logo_cvs">
+    <a href="/" title="CVS (UK) Limited">
+      <img src="<?php print $directory; ?>/images/cvslogo.jpg" alt="CVS (UK) Limited" />
     </a>
-  <?php endif; ?>
   </div> <!-- /logo -->
+  
+  <div id="logo_ark">
+    <a href="/" title="Ark Veterinary Group">
+      <img src="<?php print $directory; ?>/images/ArkLogo.jpg" alt="Ark Veterinary Group" />
+    </a>
+  </div> <!-- /logo -->
+  
+  <!-- HIDING THE NAME AND SLOGAN SECTION
+  
   <div id="name-and-slogan">
 <?php if ($site_name) : ?>
   <?php if ($is_front): ?>

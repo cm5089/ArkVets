@@ -111,6 +111,7 @@ $siteid = theme_get_setting('siteid');
   drupal_add_css(drupal_get_path('theme','zeropoint').'/css/style-zero.css', array('group' => CSS_THEME, 'every_page' => TRUE));
   drupal_add_css(drupal_get_path('theme','zeropoint') . '/css/' . get_zeropoint_style() . '.css', array('group' => CSS_THEME, 'every_page' => TRUE));
   drupal_add_css(drupal_get_path('theme','zeropoint').'/_custom/custom-style.css', array('group' => CSS_THEME, 'every_page' => TRUE));
+  drupal_add_css(drupal_get_path('theme','zeropoint') . '/css/arkvets.css', array('group' => CSS_THEME, 'every_page' => TRUE));
 
 $roundcorners = theme_get_setting('roundcorners');
   if ($roundcorners == '1'){ 

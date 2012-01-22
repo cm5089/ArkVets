@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+/* Template CSS Changes */
+
+#top_right, #body_right, #bottom_right {
+	width: 1000px;
+}
+
+#top_left, #body_left, #bottom_left {
+	width: 1050px;
+	margin: auto;
+}
+
+.himg #headimg {
+	background-image: none;
+	background-color: #f9fdcb;
+}
+
+#logo_ark {
+	float: left;
+	margin-left: 175px;
+}
+
+#logo_cvs {
+	float:left;
+	margin-left: 100px;
+	height: 130px;
+}
+
+#logo_cvs img {
+	height: 130px;
+}
+
+/* Navigation links */
+
+#navlinks {
+	margin-top: 10px;
+	background-color: #000087;
+	width: 960px;
+}
+
+#navlinks ul li a, #navlist a {
+	background-color: none !important;
+}
+
+#navlinks ul li a:hover, #navlist a:hover {
+	background-color: none !important;
+}
