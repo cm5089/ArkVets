@@ -4,10 +4,17 @@
 	
 		<?php print render($page['header']) ?>
 	
-		<h1><a href="<?php print $front_page ?>"><?php print $site_name ?></a></h1>
-		
-		<h2><?php print $site_slogan ?></h2>
-		
+		<div id="header_bar" style="<?php
+			print 'width:100%;';
+			print 'height:150px;';
+			print 'background-image: url(\''.$directory . '/images/banner.jpg\')';
+		?>">
+			<div id="logo_ark">
+				<a href="/" title="Ark Veterinary Group">
+					<img src="<?php print $directory; ?>/images/ArkLogo.jpg" alt="Ark Veterinary Group" />
+				</a>
+			</div> <!-- /Ark Vets logo -->
+		</div>
 		<div id="block-bar">
 		
 		  <nav>
