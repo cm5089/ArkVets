@@ -23,7 +23,7 @@ h1,h2,h3 {font-family: "Lucida Grande"; font-weight: normal;}
 
 /* END SETTING DEFAULTS */
 
-#block-bar {display: block; margin: 5px 0 0 0; font-size: 16px; border: 2px solid #000; padding: 5px 0;} 
+#block-bar {display: block; margin: 5px 0 0 0; font-size: 16px; padding: 5px 0;} 
 nav ul li {padding: 0; display: inline;}
 nav ul li:after {content: ' | ';}  
 nav ul {list-style: none; }
@@ -32,7 +32,6 @@ header .clear {clear: both;}
 header nav ul li a.active {background: #eee;}
 header {display: block; margin: 10px 0 0 0;}     
 header h1 a {font-weight: 700; text-transform: uppercase; text-decoration: none;}
-header div#logo_ark img {height:150px; float:left}
 
 section form div.form-type-textfield input {font-size: 20px; width: 400px;}
 section {display: block; float: left; width: 796px; border: 2px solid #000; padding: 20px; margin: 10px 0;}
@@ -48,3 +47,57 @@ footer nav ul li a.active {background: #FFF;}
 .node ul.links {display: none;}
 .messages {border: 1px solid #000; margin: 5px 0;}
 .messages ul {list-style-position: inside;} 
+
+/***********************
+   ARKVETS STYLE INFO
+************************/
+header div#logo_ark img {
+	height:150px;
+	float:left;
+	margin-left: 50px;
+}
+
+ul.nice-menu-down .menuparent a {
+	padding: 0px;
+}
+
+nav ul li::after {
+	content:none
+}
+
+ul.nice-menu-down li.menuparent {
+	background: none;
+}
+
+li.over {
+	backgound: none;
+}
+
+ul.nice-menu a:hover {
+	background: none;
+	text-decoration: none;
+}
+
+ul.nice-menu a {
+	color: white;
+	border: 0px;
+	background-color: #000087;
+	text-decoration: none;
+}
+
+ul.nice-menu li {
+	height:25px;
+	padding: 0px 10px 0px 10px;
+	border: none;
+	background-color: #000087;
+}
+
+ul.nice-menu a {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.nice-menu-down {
+	width: 100%;
+	background-color: #000087;
+}

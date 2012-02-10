@@ -11,7 +11,7 @@
 		?>">
 			<div id="logo_ark">
 				<a href="/" title="Ark Veterinary Group">
-					<img src="<?php print $directory; ?>/images/ArkLogo.jpg" alt="Ark Veterinary Group" />
+					<img src="<?php print $directory; ?>/images/ArkLogo.png" alt="Ark Veterinary Group" />
 				</a>
 			</div> <!-- /Ark Vets logo -->
 		</div>
@@ -19,9 +19,15 @@
 		
 		  <nav>
 		
-  			<?php if ($main_menu): ?>
-    		  <?php print theme('links__system_main_menu', array('links' => $main_menu )); ?>
-  		  <?php endif; ?>
+			<?php
+				// id, direction, depth should have the values you want them to have.
+				$menu = theme('nice_menus', array('id' => 0, 'direction' => 'down', 'depth' => 1, 'menu_name' => 'main-menu', 'menu' => NULL));
+				print $menu['content'];
+				
+//				if ($main_menu):
+//					print theme('links__system_main_menu', array('links' => $main_menu ));
+//				endif;
+			?>
 		
 		  </nav>
 		  
