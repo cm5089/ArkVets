@@ -29,7 +29,7 @@ nav ul li:after {content: ' | ';}
 nav ul {list-style: none; }
 header .clear {clear: both;}
 
-header nav ul li a.active {background: #eee;}
+header nav ul li a.active {}
 header {display: block; margin: 10px 0 0 0;}     
 header h1 a {font-weight: 700; text-transform: uppercase; text-decoration: none;}
 
@@ -51,6 +51,11 @@ footer nav ul li a.active {background: #FFF;}
 /***********************
    ARKVETS STYLE INFO
 ************************/
+
+/***********************
+   Headers and menus
+************************/
+
 header div#logo_ark img {
 	height:150px;
 	float:left;
@@ -92,6 +97,10 @@ ul.nice-menu li {
 	background-color: #000087;
 }
 
+ul.nice-menu-down li.menuparent:hover {
+	background: none;
+}
+
 ul.nice-menu a {
 	padding: 0px;
 	margin: 0px;
@@ -100,4 +109,29 @@ ul.nice-menu a {
 ul.nice-menu-down {
 	width: 100%;
 	background-color: #000087;
+}
+
+div#block-bar {
+	margin: 0px;
+	padding: 0px;
+}
+
+/***********************
+ Body section
+************************/
+
+section {
+	border: none;
+}
+
+div.node {
+	border: none;
+}
+
+/**********************
+  Footer
+***********************/
+
+footer {
+	border: none;
 }
