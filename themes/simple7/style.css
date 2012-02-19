@@ -95,6 +95,8 @@ div#banner_bar img.last {
 
 asside .block {
 	border: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 div#block-nice-menus-1 h2 {
@@ -104,6 +106,7 @@ div#block-nice-menus-1 h2 {
 ul#nice-menu-1 {
 	border: none;
 	background: none;
+	width: 100%;
 }
 
 ul#nice-menu-1 ul {
@@ -115,6 +118,7 @@ ul#nice-menu-1 li, ul#nice-menu-1 li:hover {
 	background: #000035;
 	margin-bottom: 2px;
 	border-radius: 10px;
+	width: 100%;
 }
 
 ul#nice-menu-1 li:hover {

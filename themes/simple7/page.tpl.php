@@ -1,6 +1,5 @@
-<div id="wrapper">
-  
- <header>
+<div id="wrapper">  
+	<header>
 	
 		<?php print render($page['header']) ?>
 	
@@ -22,27 +21,17 @@
 			</div>
 		</div>
 		<div class="clear">&nbsp;</div>
-	
-  </header>
-	<section id="main-stuff">
-	
-		<?php if($title): ?><h2><?php print $title ?></h2><?php endif ?>
-		
-    <?php if($tabs): ?><?php print render($tabs) ?><?php endif ?>
-		
-		<?php print render($page['help']) ?>
-		
-		<?php print $messages ?>
-				
-		<?php print render($page['content']) ?>
-
-	</section>
-	
+	</header>
 	<asside>
-	
-		<?php print render($page['sidebar_first']) ?>
-		
+		<?php print render($page['sidebar_first']); ?>
 	</asside>
+	<section id="main-stuff">
+		<?php if($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
+		<?php if($tabs): ?><?php print render($tabs); ?><?php endif; ?>
+		<?php print render($page['help']); ?>
+		<?php print $messages; ?>
+		<?php print render($page['content']); ?>
+	</section>
 	
 	<!--	
 		<footer>
