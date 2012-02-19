@@ -53,14 +53,45 @@ footer nav ul li a.active {background: #FFF;}
 ************************/
 
 /***********************
-   Headers and menus
+   Headers
 ************************/
 
 header div#logo_ark img {
-	height:150px;
-	float:left;
-	margin-left: 50px;
+	height: 130px;
+	float: left;
 }
+
+div#banner_contact_us {
+	float: right;
+	margin-bottom: 3px;
+	font-family: Arial;
+	color: #000035;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+}
+
+div#banner_bar {
+	width: 526px;
+	float:right;
+	border-top: #000035 5px solid;
+	border-bottom: #000035 5px solid;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+div#banner_bar img {
+	float: right;
+	margin-left: 2px
+}
+
+div#banner_bar img.last {
+	margin-left:0px
+}
+
+/************************
+   Menus
+*************************/
 
 ul.nice-menu-down .menuparent a {
 	padding: 0px;
@@ -122,6 +153,14 @@ div#block-bar {
 
 section {
 	border: none;
+	width: 560px;
+	padding: 20px;
+	float: right;
+}
+
+asside {
+	float:left;
+	width: 200px;
 }
 
 div.node {

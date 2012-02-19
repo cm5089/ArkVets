@@ -4,41 +4,26 @@
 	
 		<?php print render($page['header']) ?>
 	
-		<div id="header_bar" style="<?php
-			print 'width:100%;';
-			print 'height:150px;';
-			print 'background-image: url(\'/'.$directory . '/images/banner.jpg\')';
-		?>">
+		<div id="header_bar" style="width:100%;">
 			<div id="logo_ark">
 				<a href="/" title="Ark Veterinary Group">
 					<img src="/<?php print $directory; ?>/images/ArkLogo.png" alt="Ark Veterinary Group" />
 				</a>
 			</div> <!-- /Ark Vets logo -->
+			<div id="banner_contact_us">
+				Burgess Hill: 01444 233472<br />
+				Hassocks: 01273 844399
+			</div>
+			<div id="banner_bar">
+				<img src="/<?php print $directory; ?>/images/Header-guinea-pig.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-dog.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-cat.jpg" class="last">
+			</div>
 		</div>
-		<div id="block-bar">
-		
-		  <nav>
-		
-			<?php
-				// id, direction, depth should have the values you want them to have.
-				$menu = theme('nice_menus', array('id' => 0, 'direction' => 'down', 'depth' => 1, 'menu_name' => 'main-menu', 'menu' => NULL));
-				print $menu['content'];
-				
-//				if ($main_menu):
-//					print theme('links__system_main_menu', array('links' => $main_menu ));
-//				endif;
-			?>
-		
-		  </nav>
-		  
-		  <div id="search-form-wrap"></div>		
-		
-		</div>
-		
 		<div class="clear">&nbsp;</div>
 	
   </header>
-	
 	<section id="main-stuff">
 	
 		<?php if($title): ?><h2><?php print $title ?></h2><?php endif ?>
@@ -58,21 +43,22 @@
 		<?php print render($page['sidebar_first']) ?>
 		
 	</asside>
-		
-	<footer>
 	
-		<?php print render($page['footer']) ?>
+	<!--	
+		<footer>
 		
-		<nav>
-		
-			<?php if ($main_menu): ?>
+			<?php print render($page['footer']) ?>
 			
-		        <?php print theme('links__system_main_menu', array('links' => $main_menu )); ?>
-	
-		    <?php endif; ?>
+			<nav>
+			
+				<?php if ($main_menu): ?>
+				
+			        <?php print theme('links__system_main_menu', array('links' => $main_menu )); ?>
 		
-		</nav>
-	
-	</footer>
-	
+			    <?php endif; ?>
+			
+			</nav>
+		
+		</footer>
+	-->
 </div>
