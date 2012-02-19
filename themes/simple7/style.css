@@ -93,58 +93,43 @@ div#banner_bar img.last {
    Menus
 *************************/
 
-ul.nice-menu-down .menuparent a {
-	padding: 0px;
-}
-
-nav ul li::after {
-	content:none
-}
-
-ul.nice-menu-down li.menuparent {
-	background: none;
-}
-
-li.over {
-	backgound: none;
-}
-
-ul.nice-menu a:hover {
-	background: none;
-	text-decoration: none;
-}
-
-ul.nice-menu a {
-	color: white;
-	border: 0px;
-	background-color: #000087;
-	text-decoration: none;
-}
-
-ul.nice-menu li {
-	height:25px;
-	padding: 0px 10px 0px 10px;
+asside .block {
 	border: none;
-	background-color: #000087;
 }
 
-ul.nice-menu-down li.menuparent:hover {
+div#block-nice-menus-1 h2 {
+	display: none;
+}
+
+ul#nice-menu-1 {
+	border: none;
 	background: none;
 }
 
-ul.nice-menu a {
-	padding: 0px;
-	margin: 0px;
+ul#nice-menu-1 ul {
+	border: none;
 }
 
-ul.nice-menu-down {
-	width: 100%;
-	background-color: #000087;
+ul#nice-menu-1 li, ul#nice-menu-1 li:hover {
+	border: none;
+	background: #000035;
+	margin-bottom: 2px;
+	border-radius: 10px;
 }
 
-div#block-bar {
+ul#nice-menu-1 li:hover {
+	background: #9b9bec;
+}
+
+ul#nice-menu-1 li a, ul#nice-menu-1 li a:hover {
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	padding-left: 20px;
+	background:none;
 }
 
 /***********************
