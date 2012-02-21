@@ -4,18 +4,19 @@
 		<?php print render($page['header']) ?>
 	
 		<div id="header_bar" style="width:100%;">
+			<div id="banner_contact_us">
+				Burgess Hill: 01444 233472<br />
+				Hassocks: 01273 844399
+			</div>
 			<div id="logo_ark">
 				<a href="/" title="Ark Veterinary Group">
 					<img src="/<?php print $directory; ?>/images/ArkLogo.png" alt="Ark Veterinary Group" />
 				</a>
 			</div> <!-- /Ark Vets logo -->
-			<div id="banner_contact_us">
-				Burgess Hill: 01444 233472<br />
-				Hassocks: 01273 844399
-			</div>
 			<div id="banner_bar">
 				<img src="/<?php print $directory; ?>/images/Header-guinea-pig.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-dog.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-cat.jpg" class="last">
 			</div>
