@@ -14,10 +14,10 @@
 				</a>
 			</div> <!-- /Ark Vets logo -->
 			<div id="banner_bar">
+				<img src="/<?php print $directory; ?>/images/Header-rott.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-guinea-pig.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-dog.jpg">
-				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
-				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-cat.jpg" class="last">
 			</div>
 		</div>
