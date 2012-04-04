@@ -177,21 +177,41 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'arkvets_test',
-      'username' => 'root',
-      'password' => '',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+if (strstr($_SERVER['HTTP_HOST'], "chrismartin-online.co.uk")) {
+	//Test Site details
+	$databases = array (
+	  'default' => 
+	  array (
+	    'default' => 
+	    array (
+	      'database' => 'db396191945',
+	      'username' => 'dbo396191945',
+	      'password' => 'werewolf',
+	      'host' => 'db396191945.db.1and1.com',
+	      'port' => '',
+	      'driver' => 'mysql',
+	      'prefix' => '',
+	    ),
+	  ),
+	);
+} else {
+	//Localhost details
+	$databases = array (
+	  'default' => 
+	  array (
+	    'default' => 
+	    array (
+	      'database' => 'arkvets_test',
+	      'username' => 'root',
+	      'password' => '',
+	      'host' => 'localhost',
+	      'port' => '',
+	      'driver' => 'mysql',
+	      'prefix' => '',
+	    ),
+	  ),
+	);
+}
 
 /**
  * Access control for update.php script.
