@@ -23,9 +23,9 @@
 		</div>
 		<div class="clear">&nbsp;</div>
 	</header>
-	<asside>
+	<div id="asside">
 		<?php print render($page['sidebar_first']); ?>
-	</asside>
+	</div>
 	<section id="main-stuff">
 		<?php if($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
 		<?php if($tabs): ?><?php print render($tabs); ?><?php endif; ?>

@@ -157,7 +157,7 @@ section {
 	float: right;
 }
 
-asside {
+div#asside {
 	float:left;
 	width: 160px;
 }
