@@ -14,7 +14,7 @@
 				</a>
 			</div> <!-- /Ark Vets logo -->
 			<div id="banner_bar">
-				<img src="/<?php print $directory; ?>/images/RCVS_SAP_large.png" style="width:120px">
+				<img src="/<?php print $directory; ?>/images/Header-goldpaw.jpg" style="width:120px">
 				<img src="/<?php print $directory; ?>/images/Header-rott.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-guinea-pig.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
