@@ -22,14 +22,14 @@ table {width: 100%;}
 nav ul li {padding: 0; display: inline;}
 nav ul li:after {content: ' | ';}  
 nav ul {list-style: none; }
-header .clear {clear: both;}
+div#header .clear {clear: both;}
 
-header nav ul li a.active {}
-header {display: block; margin: 10px 0 0 0;}     
-header h1 a {font-weight: 700;}
+div#header nav ul li a.active {}
+div#header {display: block; margin: 10px 0 0 0;}     
+div#header h1 a {font-weight: 700;}
 
-section form div.form-type-textfield input {width: 400px;}
-section {display: block; float: left; width: 796px; border: 2px solid #000; padding: 20px; margin: 10px 0;}
+div#main-stuff form div.form-type-textfield input {width: 400px;}
+div#main-stuff {display: block; float: left; width: 796px; border: 2px solid #000; padding: 20px; margin: 10px 0;}
 #wrapper {width: 900px; margin: 0px auto;}
 asside {width: 260px; display: block; float: right; }   
 asside .block {border: 2px solid #000; padding: 5px 10px 5px 5px; margin: 10px 0;}
@@ -46,11 +46,15 @@ footer nav ul li a.active {background: #FFF;}
    ARKVETS STYLE INFO
 ************************/
 
+body {
+	font-family: Arial, sans-serif;
+}
+
 /***********************
    Headers
 ************************/
 
-header div#logo_ark img {
+div#header div#logo_ark img {
 	height: 95px;
 	float: left;
 	padding-top: 6px;
@@ -67,8 +71,18 @@ div#banner_contact_us {
 	width: 100%;
 }
 
+div#banner_contact_us a {
+	line-height: normal;
+	color: #000035;
+	text-decoration: none;
+}
+
+div#banner_contact_us a:hover {
+	text-decoration: underline;
+}
+
 div#banner_bar {
-	width: 608px;
+	width: 730px;
 	float:right;
 	border-top: #000035 5px solid;
 	border-bottom: #000035 5px solid;
@@ -137,6 +151,17 @@ ul.nice-menu-right ul {
 	left: 10.1em;
 }
 
+div#rcvs_cred {
+	width: 80px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#rcvs_cred a img {
+	width: 80px;
+}
+
 /***********************
  Body section
 ************************/
@@ -149,7 +174,7 @@ tbody {
 	border: 0px;
 }
 
-section {
+div#main-stuff {
 	border: none;
 	width: 710px;
 	padding: 0px;
@@ -170,6 +195,5 @@ div.node {
   Footer
 ***********************/
 
-footer {
 	border: none;
 }
