@@ -195,5 +195,16 @@ div.node {
   Footer
 ***********************/
 
-	border: none;
+div#footer {
+	width: 100%;
+	float: left;
+}
+
+div#foot_menu {
+	width: 400px;
+	margin: auto;
+}
+
+div#foot_menu h2 {
+	display: none;
 }

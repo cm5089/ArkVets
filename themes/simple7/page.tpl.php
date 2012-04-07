@@ -40,6 +40,12 @@
 		<?php print render($page['content']); ?>
 	</div>
 	
+	<div id="footer">
+		<div id="foot_menu">
+			<?php print render($page['footer']); ?>
+		</div>
+	</div>
+	
 	<!--	
 		<footer>
 		
