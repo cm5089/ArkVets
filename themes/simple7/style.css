@@ -153,13 +153,24 @@ ul.nice-menu-right ul {
 
 div#rcvs_cred {
 	width: 80px;
-	padding-top: 20px;
+	padding-top: 5px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 div#rcvs_cred a img {
 	width: 80px;
+}
+
+div#cvs_logo {
+	width: 60px;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#cvs_logo a img {
+	width: 60px;
 }
 
 /***********************

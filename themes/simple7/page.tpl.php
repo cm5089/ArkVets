@@ -27,8 +27,14 @@
 	<div id="asside">
 		<?php print render($page['sidebar_first']); ?>
 		<div id="rcvs_cred">
-			<a href="/">
+			<a href="http://www.rcvs.org.uk/practice-standards-scheme/" target="_blank">
 				<img src="/<?php print $directory; ?>/images/RCVS-cred.jpg" alt="RCVS Accredited Practice - Small Animal Practice">
+			</a>
+		</div>
+		<div class="clear" style="height:0px;"></div>
+		<div id="cvs_logo">
+			<a href="http://www.cvsukltd.co.uk/origins.htm" target="_blank">
+				<img src="/<?php print $directory; ?>/images/cvslogo.jpg" alt="CVS - Your pets, our priority.">
 			</a>
 		</div>
 	</div>
