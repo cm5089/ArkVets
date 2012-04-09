@@ -17,8 +17,8 @@
 				<img src="/<?php print $directory; ?>/images/Header-goldpaw.jpg" style="width:120px">
 				<img src="/<?php print $directory; ?>/images/Header-rott.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-guinea-pig.jpg">
-				<img src="/<?php print $directory; ?>/images/Header-rabbit.jpg">
-				<img src="/<?php print $directory; ?>/images/Header-dog.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-hop.jpg">
+				<img src="/<?php print $directory; ?>/images/Header-west.jpg">
 				<img src="/<?php print $directory; ?>/images/Header-cat.jpg" class="last">
 			</div>
 		</div>

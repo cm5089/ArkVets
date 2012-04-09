@@ -8,10 +8,11 @@ SIMPLE D7 DEMO THEME
 
 /* BEGIN SETTING DEFAULTS */
 
-* {
+/* {
   margin: 0;
   padding: 0;
-}
+}*/
+
 ul {list-style: inside; margin: 0; padding: 0; list-style: disc;}
 p,a,strong,em,li,dl,dt {margin: 8px 0; line-height: 22px;}
 table {width: 100%;}
